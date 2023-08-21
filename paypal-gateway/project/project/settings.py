@@ -7,6 +7,7 @@ SECRET_KEY = 'django-insecure-r*-_u(upd^stx0@fodqki)&q2-2^v%100-phxc3gpg+^ar+e%!
 DEBUG = True
 
 ALLOWED_HOSTS = []
+PAYPAL_TEST = True
 
 
 # Application definition
@@ -19,6 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'product',
+    'paypal.standard.ipn',
 ]
 
 MIDDLEWARE = [
